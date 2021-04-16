@@ -71,7 +71,9 @@ function listInhabitants(inhabitants) {
     print(description);
   }
 }
-document.addEventListener('DOMContentLoaded', () => listInhabitants(inhabitants););
+document.addEventListener('DOMContentLoaded', () =>
+  listInhabitants(inhabitants)
+);
 /* Print examples:
    print('ABC');
    print('<strong>ABC</strong>');
